@@ -1,0 +1,7 @@
+- task: PowerBIActions@4
+  inputs:
+    AuthenticationType: 'User'
+    serviceConnection: 'Power BI'
+    Action: 'DataRefresh'
+    WorkspaceName: 'App Test'
+    DatasetName: 'Azure Test'
